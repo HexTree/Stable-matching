@@ -24,10 +24,12 @@ First line: According to your situation, each company must be assigned to by bet
 
 Second line: Type your scores for 1st, 2nd, 3rd, etc.
 
-Third line: Type the name of each student, separated by spaces. Each name must be one word only, which can include underscores if you want, e.g. john_smith
+Third line: Type the name of each student, separated by spaces. Each name must be one word only, which can include underscores if you want, e.g. john_doe 
 
 Fourth line: Type the name of each company, separated by spaces. As before, each name must be one word only.
 
 Each remaining line: You type a student's name, leave a space, then hyphen (-), leave another space, then list that student's preferences starting with the first choice. The choices must be separated by spaces.
+
+e.g: john_doe - kfc pizzahut mcdonalds
 
 
