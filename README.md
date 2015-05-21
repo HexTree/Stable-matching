@@ -14,7 +14,7 @@ USAGE
 
 If you run stablematching.py, it will read the data in data.txt (i.e. the preferences of students) and calculate the best assignment. This assignment will be written to a new file "output.txt" which you can read the answer from.
 
-The key thing is to decide on a scoring system. You assign a certain number of points to each student who manages to secure his first/second/third option, etc. Different scores could lead to different prioritisations. For example you could give 20 points for 1st, 15 for 2nd, and 13 for third. And this would try to make sure not many people are left without one of their top three choices.
+The key thing is to decide on a scoring system. You assign a certain number of points to each student who manages to secure his first/second/third option, etc. Different scores could lead to different prioritisations. For example you could give 20 points for 1st, 15 for 2nd, and 13 for third. And this would make sure not many people are left without one of their top three choices.
 
 You enter all the details into "data.txt" following a certain format. 
 
