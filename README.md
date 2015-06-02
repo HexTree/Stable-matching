@@ -1,7 +1,13 @@
 # Stable-matching
 Assign students to tasks according to constraints, so as to maximise score.
 
-INSTALLATION
+**PROBLEM**
+
+We have *n* students and *m* companies. Each student wants to be assigned to a company. Each company wants a minimum of *a* students, and a maximum of *b* students assigned to them. The students are asked to rank their preferences for which companies they want to be assigned to. A scoring system is devised, which accumulates more points for students who gain their high preferences, and fewers point for student who gain their low preferences.
+
+The goal then is to assign every student to a company in a way which satisfies the above conditions and also maximises the score. A variation of the Stable matching problem.
+
+**INSTALLATION**
 
 Step 1: Install Python 2.x if you don't have it. https://www.python.org/downloads/
 
@@ -10,7 +16,7 @@ To install (on Windows), uncompress the folder and launch a terminal. Navigate t
 
 Step 3: Download stablematching.py and data.txt to a folder.
 
-USAGE
+**USAGE**
 
 If you run stablematching.py, it will read the data in data.txt (i.e. the preferences of students) and calculate the best assignment. This assignment will be written to a new file "output.txt" which you can read the answer from.
 
@@ -18,7 +24,7 @@ The key thing is to decide on a scoring system. You assign a certain number of p
 
 You enter all the details into "data.txt" following a certain format. 
 
-DATA FORMAT
+**DATA FORMAT**
 
 First line: According to your situation, each company must be assigned to by between a and b students, inclusive. Your choice of variables a and b must be entered on the first line, separated by spaces.
 
