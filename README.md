@@ -36,6 +36,12 @@ Fourth line: Type the name of each company, separated by spaces. As before, each
 
 Each remaining line: You type a student's name, leave a space, then hyphen (-), leave another space, then list that student's preferences starting with the first choice. The choices must be separated by spaces.
 
-e.g: john_doe - kfc pizzahut mcdonalds
+e.g. a sample file would look like this: 
+
+1 2
+20 13
+john_doe
+kfc pizzahut mcdonalds
+john_doe - kfc pizzahut mcdonalds
 
 
